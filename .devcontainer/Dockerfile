@@ -16,3 +16,5 @@ RUN apt-get update \
     && usermod -s $USER_SHELL $USERNAME
 
 USER $USERNAME
+
+RUN npm install axios
